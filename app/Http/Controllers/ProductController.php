@@ -21,7 +21,6 @@ class ProductController extends Controller
             'data' => $products
         ];
         return $data;
-//        return collect($data)->toJson();
     }
 
     /**
